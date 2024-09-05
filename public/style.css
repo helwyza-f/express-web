@@ -1,0 +1,27 @@
+.navbar-custom {
+  background-color: #343a40; /* Dark background color */
+}
+.navbar-custom .navbar-nav .nav-link {
+  color: #ffffff; /* White text color */
+}
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #dddddd; /* Slightly lighter color on hover */
+}
+
+.img-hero {
+  width: 200px; /* Set the width to 200px */
+  height: 200px; /* Set the height to 200px to match the width */
+  border-radius: 50%; /* Makes the image a circle */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  border: 3px solid #ffffff; /* Optional: add a border if desired */
+}
+
+.custom-row {
+  height: 400px;
+  align-items: center;
+}
+
+/* Optional: Add additional styling if needed */
+.text-center {
+  text-align: center; /* Centers text below the image */
+}
